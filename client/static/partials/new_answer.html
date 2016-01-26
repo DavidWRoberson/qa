@@ -1,0 +1,18 @@
+<div ng-controller="newAnswerController">
+    <div>
+        <h1>{{question.question}}</h1>
+        <h5>{{question.description}}</h5>
+        <div class="form-group">
+            <label>Your Answer</label>
+            <textarea ng-model="answer"></textarea>
+        </div>
+        <div>
+            <label>Supporting details for your answer (optional)</label>
+            <textarea ng-model="details"></textarea>
+        </div>
+        <div>
+            <a href="#/" class="form-control btn btn-danger">Cancel</a>
+            <button ng-click="submit()">Submit</button>
+        </div>
+    </div>
+</div>
