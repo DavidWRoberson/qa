@@ -14,6 +14,6 @@ require('./server/config/mongoose.js');
 var routes_setter = require("./server/config/routes.js");
 routes_setter(app);
 
-app.listen(8020, function() {
-    console.log("Running on 8020");
+app.listen(8000, function() {
+    console.log("Running on 8000");
 })
